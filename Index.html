@@ -1,37 +1,24 @@
 <!doctype html>
 <html lang="pt-br">
 	<head>
-		<title>Elma Doc 0.0.3</title>
+		<title>Elma Doc 0.0.4</title>
+		<link rel="icon" href="favicon.png">
 		<meta charset="Utf-8">
 	
 		<style>
-			#home {
-				background: #808080;
-				width: 100%;
-			}
 			body {
 				margin: 0;
 				background: #555555;
 			}
-			.logo {
-				width: 10%;
+			#home {
+				background: #808080;
+				width: 100%;
 			}
 			#titulo {
 				font-size: 45px;
 			}
-			
-			
-			.string {
-				color: #108510;
-			}
-			.int-float {
-				color: #101080;
-			}
-			.flag {
-				color: #801530;
-			}
-			.comentario {
-				color: #153005;
+			.logo {
+				width: 10%;
 			}
 			
 			.tabela-h1 {
@@ -44,31 +31,64 @@
 				margin-left: 15px;
 				background: #707070;
 			}
+			.string {
+				color: #108510;
+			}
+			.int-float {
+				color: #101080;
+			}
+			.flag {
+				color: #801530;
+			}
+			.logica {
+				color: #ee7700;
+			}
+			.comentario {
+				color: #153005;
+			}
+			.padrao {
+				color: #470054;
+			}
 		</style>
 	</head>
 	<body>
-	
-	<div id="home">
-		<img src="logo.png" class="logo">
-		<h1 id="titulo">ELMA documentation 0.0.3</h1>
-	</div>
-	
-	<h3>
-		Modulo Elma:<br>
-		Ola, seja bem vindo a Home page do modulo Elma um Modulo de programação para python feito para poder auxiliar quase quelquer<br>
-		tipo de projeto com os seus recursos rapidos de emplementação basica como por exemplo calcular tempo de execução ou ate mesmo criar uma variavel de Switch (do tipo interruptor que liga e desliga)
-	</h3>
-	
-	<div class="tabela-h1">
-		<h1>Switch()</h1>
-	</div>
-	
-	<div class="tabela-h2">
-		<h2>Object: Switch()</h2>
-		<h3>Lampada = Switch() <span class="comentario"># Cria um objeto Switch</span></h3>
-		<h2>Switch: Methods</h2>
-		<h3>Trade():<br>
-		sempre retora o valhor oposto do estado atual da variavel de <span class="flag">True</span> para False e de <span class="flag">False</span> para <span class="flag">True</span></h3>
-	</div>
+		<div id="home">
+			<img src="Logo.png" class="logo">
+			<h1 id="titulo">ELMA documentation 0.0.4</h1>
+		</div>
+		
+		<h3>
+			Modulo Elma:<br>
+			Ola, seja bem vindo a Home page do modulo Elma um Modulo de programação para python feito para poder auxiliar quase quelquer<br>
+			tipo de projeto com os seus recursos rapidos de emplementação basica como por exemplo calcular tempo de execução ou ate mesmo criar uma variavel de Switch (do tipo interruptor que liga e desliga)
+		</h3>
+		
+		<div class="tabela-h1">
+			<h1>Switch()</h1>
+		</div>
+		
+		<div class="tabela-h2">
+			<h2>Object: Switch()</h2>
+			<h3>Lampada = Switch() <span class="comentario"># Cria um objeto Switch</span></h3>
+			<h2>Switch: Methods</h2>
+			<h3>Trade():<br>
+			sempre retora o valhor oposto do estado atual da variavel de <span class="flag">True</span> para False e de <span class="flag">False</span> para <span class="flag">True</span></h3>
+		</div>
+		<div class="tabela-h1">
+			<h1>Telltime()</h1>
+		</div>
+		
+		<div class="tabela-h2">
+			<h2>Telltime(back=False) <span class="padrao"># Default</span></h2>
+			<h3>Tt() <span class="comentario"># Voce pode abreviar a função dessa forma</span></h3>
+			<h3>Telltime() <span class="comentario"># Retorna no final do seu codigo o tempo de execução independente de onde voce chame essa função<br># Obs: A função precisa estar dentro de um contexto funcional então se estiver dentro de um <span class="logica">if</span> só sera chamada se a condição do <span class="logica">if</span> for atendida</span></h3>
+			<h3>Telltime(back=True)
+				<span class="comentario"># retorna a string referente ao inicio do script e quando voce faz isso 2 coisas acontecem
+				<br>
+				# 1 - A referencia do tempo muda então a proxima vez que voce chamar essa função ela vai comparar o tempo atual com a ultima vez que voce usou essa função
+				<br>
+				# 2 - A função que mostra o seu tempo no final do codigo não não sera chamada por isso ser uma ativação com a flag <span class="flag">True</span>
+			</span></h3>
+		</div>
 	</body>
 </html>
