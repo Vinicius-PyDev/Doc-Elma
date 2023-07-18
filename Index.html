@@ -1,15 +1,23 @@
 <!doctype html>
 <html lang="pt-br">
 	<head>
-		<title>Elma Doc 0.0.2</title>
+		<title>Elma Doc 0.0.3</title>
 		<meta charset="Utf-8">
 	
 		<style>
+			#home {
+				background: #808080;
+				width: 100%;
+			}
 			body {
+				margin: 0;
 				background: #555555;
 			}
 			.logo {
 				width: 10%;
+			}
+			#titulo {
+				font-size: 45px;
 			}
 			
 			
@@ -25,16 +33,42 @@
 			.comentario {
 				color: #153005;
 			}
+			
+			.tabela-h1 {
+				margin-right: 5px;
+				margin-left: 5px;
+				background: #808080;
+			}
+			.tabela-h2 {
+				margin-right: 15px;
+				margin-left: 15px;
+				background: #707070;
+			}
 		</style>
 	</head>
 	<body>
-	<img src="logo.png" class="logo">
-	<h1>ELMA documentation 0.0.2</h1><br>
-	<h1>Switch()</h1>
-	<h2>Object: Switch()</h2>
-	<h3>Lampada = Switch() <span class="comentario"># Cria um objeto Switch</span></h3>
-    	<h2>Switch: Methods</h2>
-	<h3>Trade():<br>
-	sempre retora o valhor oposto do estado atual da variavel de <span class="flag">True</span> para False e de <span class="flag">False</span> para <span class="flag">True</span></h3>
+	
+	<div id="home">
+		<img src="logo.png" class="logo">
+		<h1 id="titulo">ELMA documentation 0.0.3</h1>
+	</div>
+	
+	<h3>
+		Modulo Elma:<br>
+		Ola, seja bem vindo a Home page do modulo Elma um Modulo de programação para python feito para poder auxiliar quase quelquer<br>
+		tipo de projeto com os seus recursos rapidos de emplementação basica como por exemplo calcular tempo de execução ou ate mesmo criar uma variavel de Switch (do tipo interruptor que liga e desliga)
+	</h3>
+	
+	<div class="tabela-h1">
+		<h1>Switch()</h1>
+	</div>
+	
+	<div class="tabela-h2">
+		<h2>Object: Switch()</h2>
+		<h3>Lampada = Switch() <span class="comentario"># Cria um objeto Switch</span></h3>
+		<h2>Switch: Methods</h2>
+		<h3>Trade():<br>
+		sempre retora o valhor oposto do estado atual da variavel de <span class="flag">True</span> para False e de <span class="flag">False</span> para <span class="flag">True</span></h3>
+	</div>
 	</body>
 </html>
