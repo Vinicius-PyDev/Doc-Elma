@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	background: #607095;
+	}
+#home {
+	display: flex;
+	background: #405080;
+	width: 100%;
+	height: 10%;
+	font-size: 35px;
+	align-items: center;
+	}
+.menubar {
+	display: flex;
+	background: #102030;
+	box-shadow: 1px 5px 10px #000020;
+	justify-content: space-around;
+	align-items: center;
+	color:#ffffff
+	}
+.logo {
+	width: 180px;
+	height: 160px;
+	}
+
+.tabela-h1 {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	background: #456090;
+	border: 2px solid;
+	align-items: center;
+	padding: 1px;
+	}
+.tabela-h2 {
+	width: 96%;
+	margin-left: 2%;
+	background: #557595;
+	border: 4px solid;
+	}
+.string {
+	color: #108510;
+	}
+.int-float {
+	color: #101080;
+	}
+.flag {
+	color: #801530;
+	}
+.logica {
+	color: #ee7700;
+	}
+.comentario {
+	color: #153005;
+	}
+.padrao {
+	color: #470054;
+	}
