@@ -9,7 +9,7 @@ Switch: Methods
 Trade():
 sempre retora o valhor oposto do estado atual da variavel de True para False e de False para True
 ## Telltime()
-### Telltime(back=False) # Default
+### Telltime(back=False) \# Default
 Tt() \# Voce pode abreviar a função dessa forma
 Telltime() \# Retorna no final do seu codigo o tempo de execução independente de onde voce chame essa função
 \# Obs: A função precisa estar dentro de um contexto funcional então se estiver dentro de um if só sera chamada se a condição do if for atendida
